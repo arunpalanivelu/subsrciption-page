@@ -1,0 +1,81 @@
+*{
+    margin: 10px;
+}
+.body{
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.title{
+    background-color: pink;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container1{
+    margin:30px;
+    padding: 1px;
+    background-color: black;
+    color: white;
+    height: 400px;
+    width: 220px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container2{
+    margin: 30px;
+    padding: 1px;
+    background-color: black;
+    color: white;
+    height: 400px;
+    width: 220px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container3{
+    margin: 30px;
+    padding: 1px;
+    background-color: black;
+    color: white;
+    height: 400px;
+    width: 220px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sub__card{
+    text-align: center;
+    margin-top: -5px;
+}
+.sub__list{
+    border: solid white 2px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: -20px;
+    padding: 1px;
+}
+.subscription{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container1:hover{
+    background-color: grey;
+    color: black;
+}
+.container2:hover{
+    background-color: grey;
+    color: black;
+}
+.container3:hover{
+    background-color:grey;
+    color: black;
+}
+
